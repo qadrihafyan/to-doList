@@ -1,4 +1,5 @@
 <script setup>
+import { Analytics } from '@vercel/analytics/next'
 import { ref, computed } from 'vue'
 
 // Array data
@@ -249,6 +250,7 @@ const toggleMobileMenu = () => {
         </div>
       </div>
     </div>
+    <Analytics />
   </div>
 </template>
 
